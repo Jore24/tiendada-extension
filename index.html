@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi extensión</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 1000px;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-direction: column;
+    }
+    h1, p {
+      margin: 10px 0;
+    }
+    button {
+      margin: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+  <script src="dom.js" type="module" defer></script>
+</head>
+<body>
+  <h1>Tienda: <span id="current-url">...</span></h1>
+  <p id="saved-url">Saved URL: <span>None</span></p>
+  <button id="set-url-button">Set URL</button>
+  <button>Template 1</button>
+  <button>Template 2</button>
+  <button>Template 3</button>
+</body>
+</html>
